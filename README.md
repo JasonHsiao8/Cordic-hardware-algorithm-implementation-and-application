@@ -1,2 +1,2 @@
-# Cordic-hardware-algorithm-implementation-and-application
+# Cordic-hardware-algorithm
 
