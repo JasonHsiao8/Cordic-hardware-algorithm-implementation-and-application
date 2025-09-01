@@ -6,3 +6,4 @@
 - *Vivado Edition 2025.1*
 ### Cordic Application
 - [Cordic](./cordic)
+- [Cordic_decimal_multiplier](./cordic_decimal_multiplier)
