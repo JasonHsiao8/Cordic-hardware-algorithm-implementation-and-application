@@ -29,7 +29,7 @@ $$
 \end{bmatrix}
 $$  
 
-<img width="482" height="385" alt="未命名绘图 drawio" src="https://github.com/user-attachments/assets/5ce30aa2-fdf9-414b-a524-5c61d057cc58" />
+We can avoid complex multiplication operations by using a finite time of rotation operations. We modify the matrix equation by factoring out cos(𝜃) term. The modified formula can be written as:
 
 
 
