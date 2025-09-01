@@ -36,7 +36,7 @@
 $$
 \begin{bmatrix}
     x\\\\
-    y
+   y
 \end{bmatrix} 
 $$
 
