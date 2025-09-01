@@ -28,6 +28,7 @@ $$
     y
 \end{bmatrix}
 $$
+This rotation will rotate the original vector (𝑥,𝑦) by the angle 𝜃, resulting in a new vector (𝑥′,𝑦′)
 
 
 
