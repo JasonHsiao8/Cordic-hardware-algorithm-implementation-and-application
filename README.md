@@ -29,7 +29,10 @@ $$
 \end{bmatrix}
 $$  
 
-This rotation will rotate the original vector (𝑥,𝑦) by the angle 𝜃, resulting in a new vector (𝑥′,𝑦′)
+<img width="407" height="133" alt="螢幕擷取畫面 2025-09-02 003833" src="https://github.com/user-attachments/assets/b01e5f5f-4cf7-4467-9afc-f365ade98f96" />
+
+
+
 
 
 
