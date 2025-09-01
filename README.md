@@ -29,7 +29,8 @@ $$
 \end{bmatrix}
 $$  
 
-<img width="407" height="133" alt="螢幕擷取畫面 2025-09-02 003833" src="https://github.com/user-attachments/assets/b01e5f5f-4cf7-4467-9afc-f365ade98f96" />
+<img width="382" height="385" alt="未命名绘图 drawio" src="https://github.com/user-attachments/assets/5ce30aa2-fdf9-414b-a524-5c61d057cc58" />
+
 
 
 
