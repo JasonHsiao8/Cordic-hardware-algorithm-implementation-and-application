@@ -9,6 +9,21 @@
 - [Cordic_decimal_multiplier](./cordic_decimal_multiplier)
  
 ## Vector Rotation  
+$$
+\begin{bmatrix}
+x' \\
+y'
+\end{bmatrix}
+=
+\begin{bmatrix}
+\cos(\theta) & -\sin(\theta) \\
+\sin(\theta) & \cos(\theta)
+\end{bmatrix}
+\begin{bmatrix}
+x \\
+y
+\end{bmatrix}
+$$
 
 
 
