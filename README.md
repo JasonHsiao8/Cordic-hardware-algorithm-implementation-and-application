@@ -25,7 +25,7 @@ $$
     y'
 \end{bmatrix}
 $$
-$$ y = mx + b $$
+
 
 
 
