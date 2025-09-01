@@ -10,7 +10,15 @@
  
 ## Vector Rotation  
 
-$\begin{bmatrix}A1 &A2 & A3\\A4 & A5 & A6 \end{bmatrix}$
+$$
+\left[
+\begin{matrix}
+    1 & 2 & 3 \\\\
+    4 & 5 & 6 \\\\
+    7 & 8 & 9
+\end{matrix}
+\right] \tag{3}
+$$
 
 
 
