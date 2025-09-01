@@ -11,20 +11,21 @@
 ## Vector Rotation  
 
 $$
-\begin{bmatrix}
-x' \\
-y'
-\end{bmatrix}
+\begin{matrix}
+x' & y' \\
+x & y
+\end{matrix}
 =
-\begin{bmatrix}
+\begin{matrix}
 \cos(\theta) & -\sin(\theta) \\
 \sin(\theta) & \cos(\theta)
-\end{bmatrix}
-\begin{bmatrix}
+\end{matrix}
+\begin{matrix}
 x \\
 y
-\end{bmatrix}
+\end{matrix}
 $$
+
 
 
 
