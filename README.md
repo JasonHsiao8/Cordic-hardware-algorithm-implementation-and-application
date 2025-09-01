@@ -10,22 +10,7 @@
  
 ## Vector Rotation  
 
-$
-\begin{pmatrix}
-x' & y' \\\
-x & y
-\end{pmatrix}
-=
-\begin{pmatrix}
-\cos(\theta) & -\sin(\theta) \\
-\sin(\theta) & \cos(\theta)
-\end{pmatrix}
-\begin{pmatrix}
-x \\
-y
-\end{pmatrix}
-$
-$\begin{bmatrix}X\\\Y\end{bmatrix}$
+$\begin{bmatrix}A1 &A2 & A3\\A4 & A5 & A6 \end{bmatrix}$
 
 
 
