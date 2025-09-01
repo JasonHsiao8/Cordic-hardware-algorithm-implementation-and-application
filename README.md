@@ -35,7 +35,7 @@
 
 $$
 \begin{bmatrix}
-    x\\\\
+    x\\\
    y
 \end{bmatrix} 
 $$
