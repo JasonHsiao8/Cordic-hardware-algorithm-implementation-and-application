@@ -11,19 +11,19 @@
 ## Vector Rotation  
 
 $$
-\begin{matrix}
+\begin{pmatrix}
 x' & y' \\
 x & y
-\end{matrix}
+\end{pmatrix}
 =
-\begin{matrix}
+\begin{pmatrix}
 \cos(\theta) & -\sin(\theta) \\
 \sin(\theta) & \cos(\theta)
-\end{matrix}
-\begin{matrix}
+\end{pmatrix}
+\begin{pmatrix}
 x \\
 y
-\end{matrix}
+\end{pmatrix}
 $$
 
 
