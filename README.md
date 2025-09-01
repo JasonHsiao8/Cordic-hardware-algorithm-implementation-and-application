@@ -15,9 +15,9 @@ $$
     x'\\\
     y'
 \end{bmatrix} 
-\begin
+\begin{bmatrix}
     =
-\end
+\end{bmatrix}
 \begin{bmatrix}
     \cos(\theta) & -\sin(\theta) \\
     \sin(\theta) & \cos(\theta)
