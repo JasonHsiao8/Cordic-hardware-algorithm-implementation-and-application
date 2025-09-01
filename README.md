@@ -10,6 +10,29 @@
  
 ## Vector Rotation  
 
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\[
+\begin{bmatrix}
+    x' \\
+    y'
+\end{bmatrix}
+= 
+\begin{bmatrix}
+    \cos(\theta) & -\sin(\theta) \\
+    \sin(\theta) & \cos(\theta)
+\end{bmatrix}
+\begin{bmatrix}
+    x \\
+    y
+\end{bmatrix}
+\]
+
+\end{document}
+
 $$
 \begin{bmatrix}
     1 & 2 & 3 \\\\
