@@ -4,3 +4,5 @@
 # 
 ### Development Enviroment 
 - *Vivado Edition 2025.1*
+### Cordic Application
+- [Cordic](./cordic)
