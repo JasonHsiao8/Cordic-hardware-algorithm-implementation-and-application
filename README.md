@@ -25,6 +25,7 @@ x \\
 y
 \end{pmatrix}
 $
+$\begin{bmatrix}X\\Y\end{bmatrix}$
 
 
 
