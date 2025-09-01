@@ -10,7 +10,6 @@
  
 ## Vector Rotation  
 For a vector (𝑥,𝑦) on the plane, when rotated by an angle 𝜃 the new vector (𝑥′,𝑦′) can be calculated using the following rotation matrix:  
-
 $$
 \begin{bmatrix}
     x'\\\
