@@ -87,9 +87,9 @@ $$
 
 $$
 \begin{aligned}
-x' &=  x  +  y \cdot 2^{-i} \\
-y' &=  y  -  x \cdot 2^{-i} \\
-z' &=  z  +  \arctan(2^{-i})
+x' &= x + y \cdot  2^{-i} \\
+y' &= y - x \cdot  2^{-i} \\
+z' &= z + \arctan(2^{-i})
 \end{aligned}
 $$
 
