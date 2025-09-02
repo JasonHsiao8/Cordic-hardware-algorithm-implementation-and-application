@@ -39,7 +39,6 @@ $$
 \begin{matrix}
     =
 \end{matrix}
-\tag{2}
 \cos(\theta)
 \begin{bmatrix}
     1 & -\tan(\theta) \\
