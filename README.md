@@ -93,11 +93,11 @@ z' &= \quad z + \arctan(2^{-i})
 \end{aligned}
 $$  
 
-- **(𝑥 ,𝑦 )** are the coordinates of the current vector.  
-- **(𝑥′,𝑦′)** are the updated coordinates after rotation.  
-- **𝑧** is the accumulated angle deviation.  
-- **𝑧′** is the updated angle.  
-- **𝑖**  is the iteration index, and the rotation angle at each step is arctan(2−𝑖).  
+- _(𝑥 ,𝑦 )** are the coordinates of the current vector.  
+- _(𝑥′,𝑦′)** are the updated coordinates after rotation.  
+- _𝑧** is the accumulated angle deviation.  
+- _𝑧′** is the updated angle.  
+- _𝑖**  is the iteration index, and the rotation angle at each step is arctan(2−𝑖).  
 
 
 
