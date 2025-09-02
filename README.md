@@ -56,7 +56,7 @@ $$
 \tan(\theta_i) = 2^{-i} \quad  i = 0, 1, 2, \ldots, n
 $$
 
-In this way, the multiplication with $\tan(\theta_i)$ can be transformed into shift operations, which can not only reduce hardware area but also lower power consumption and significantly accelerates the computation speed.
+In this way, the multiplication with $\tan(\theta_i)$ can be transformed into shift operations, which can not only reduce hardware area but also lower power consumption and significantly accelerate the computation speed.
 
 
 
