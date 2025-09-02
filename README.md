@@ -27,7 +27,6 @@ $$
     x \\
     y
 \end{bmatrix} 
-
 \begin{bmatrix}
     x'\\\
     y'
