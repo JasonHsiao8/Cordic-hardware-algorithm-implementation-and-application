@@ -58,7 +58,7 @@ $$
 
 In this way, the multiplication with $\tan(\theta_i)$ can be transformed into shift operations, which can not only reduce hardware area but also lower power consumption and significantly accelerate the computation speed.
 
-## Iteration
+## Multiple Iterations
 
 
 
