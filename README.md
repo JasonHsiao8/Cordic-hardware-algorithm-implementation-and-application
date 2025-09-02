@@ -19,6 +19,7 @@ $$
 \begin{matrix}
     =
 \end{matrix}
+\cos(\theta)
 \begin{bmatrix}
     \cos(\theta) & -\sin(\theta) \\
     \sin(\theta) & \cos(\theta)
