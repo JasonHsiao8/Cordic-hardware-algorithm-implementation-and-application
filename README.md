@@ -29,6 +29,13 @@ $$
 \end{bmatrix} 
 $$  
 
+\[
+\begin{aligned}
+x' &= x \cdot \cos(\theta) - y \cdot \sin(\theta) \\
+y' &= x \cdot \sin(\theta) + y \cdot \cos(\theta)
+\end{aligned}
+\]
+
 We can avoid complex multiplication operations by using a finite time of rotation operations. We modify the matrix equation by factoring out cos(𝜃) term. The modified formula can be written as:  
 
 $$
