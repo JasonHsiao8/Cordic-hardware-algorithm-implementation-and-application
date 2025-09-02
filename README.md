@@ -26,7 +26,8 @@ $$
 \begin{bmatrix}
     x \\
     y
-\end{bmatrix} 
+\end{bmatrix} \tag{1}  
+
 $$  
 
 We can avoid complex multiplication operations by using a finite time of rotation operations. We modify the matrix equation by factoring out cos(𝜃) term. The modified formula can be written as:  
