@@ -49,6 +49,7 @@ $$
     y
 \end{bmatrix} 
 $$  
+and choose appropriate angle values $\theta_i$, such that:
 
 
 
