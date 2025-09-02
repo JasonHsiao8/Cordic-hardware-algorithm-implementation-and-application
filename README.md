@@ -71,6 +71,7 @@ Each rotation in the CORDIC algorithm involves the following steps:
 1. **Compute the rotation angle** corresponding to the current iteration step, typically using $\arctan(2^{-i})$, where $i$ is the iteration index.
 2. **Determine the rotation direction** (clockwise or counterclockwise) based on the current angle $z$, in order to approach the target angle.
 3. **Update the vector’s $x$ and $y$ values**, and compute the new $z$ , which represents the accumulated angle deviation value, by adding or subtracting the rotation angle.
+
 In each rotation, the CORDIC algorithm updates the vector (𝑥,𝑦) by using the following formulas:
 
 
