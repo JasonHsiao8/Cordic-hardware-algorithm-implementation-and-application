@@ -73,6 +73,9 @@ Each rotation in the CORDIC algorithm involves the following steps:
 3. **Update the vector’s $x$ and $y$ values**, and compute the new $z$ , which represents the accumulated angle deviation value, by adding or subtracting the rotation angle.
 
 In each rotation, the CORDIC algorithm updates the vector (𝑥,𝑦) by using the following formulas:
+-**For clockwise rotation**:  
+
+-**For counterclockwise rotation:**
 
 
 
