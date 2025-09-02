@@ -47,7 +47,7 @@ $$
 \begin{bmatrix}
     x \\
     y
-\end{bmatrix} \\tag{2}
+\end{bmatrix} \tag{2}
 $$  
 
 
