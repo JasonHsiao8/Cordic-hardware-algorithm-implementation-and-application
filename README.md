@@ -19,7 +19,6 @@ $$
 \begin{matrix}
     =
 \end{matrix}
-\cos(\theta)
 \begin{bmatrix}
     \cos(\theta) & -\sin(\theta) \\
     \sin(\theta) & \cos(\theta)
@@ -30,7 +29,26 @@ $$
 \end{bmatrix}
 $$  
 
-We can avoid complex multiplication operations by using a finite time of rotation operations. We modify the matrix equation by factoring out cos(𝜃) term. The modified formula can be written as:
+We can avoid complex multiplication operations by using a finite time of rotation operations. We modify the matrix equation by factoring out cos(𝜃) term. The modified formula can be written as:  
+
+$$
+\begin{bmatrix}
+    x'\\\
+    y'
+\end{bmatrix} 
+\begin{matrix}
+    =
+\end{matrix}
+\cos(\theta)
+\begin{bmatrix}
+    \1 & -\tan(\theta) \\
+    \tan(\theta) & 1
+\end{bmatrix}
+\begin{bmatrix}
+    x \\
+    y
+\end{bmatrix}
+$$  
 
 
 
