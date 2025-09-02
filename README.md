@@ -76,6 +76,7 @@ In each rotation, the CORDIC algorithm updates the vector (𝑥,𝑦) by using t
 
 - **For clockwise rotation**:
 
+  
 \[
 \begin{aligned}
 x' &= x - y \cdot 2^{-i} \\
@@ -83,7 +84,6 @@ y' &= y + x \cdot 2^{-i} \\
 z' &= z - \arctan(2^{-i})
 \end{aligned}
 \]
-
 
 - **For counterclockwise rotation:**
 
