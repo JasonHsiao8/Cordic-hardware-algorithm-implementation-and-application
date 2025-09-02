@@ -31,8 +31,8 @@ $$
 
 $$
 \begin{aligned}
-x' &= x \cdot \cos(\theta) - y \cdot \sin(\theta) \\
-y' &= x \cdot \sin(\theta) + y \cdot \cos(\theta)
+x' &= \quad x \cdot \cos(\theta) - y \cdot \sin(\theta) \\
+y' &= \quad x \cdot \sin(\theta) + y \cdot \cos(\theta)
 \end{aligned}
 $$
 
