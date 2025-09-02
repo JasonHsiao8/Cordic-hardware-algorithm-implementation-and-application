@@ -53,7 +53,7 @@ $$
 and choose appropriate angle values $\theta_i$, such that:
 
 $$
-\tan(\theta_i) = 2^{-i} \quad i = 0, 1, \ldots, n
+\tan(\theta_i) = 2^{-i} \quad  i = 0, 1, 2, \ldots, n
 $$
 
 
