@@ -39,6 +39,7 @@ $$
 \begin{matrix}
     =
 \end{matrix}
+\tag{2}
 \cos(\theta)
 \begin{bmatrix}
     1 & -\tan(\theta) \\
@@ -47,7 +48,7 @@ $$
 \begin{bmatrix}
     x \\
     y
-\end{bmatrix} \tag{2}
+\end{bmatrix} 
 $$  
 
 
