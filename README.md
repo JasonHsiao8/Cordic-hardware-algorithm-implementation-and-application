@@ -46,7 +46,7 @@ $$
 \begin{matrix}
     =
 \end{matrix}
-\cos(\theta)
+\quad\cos(\theta)
 \begin{bmatrix}
     1 & -\tan(\theta) \\
     \tan(\theta) & 1
