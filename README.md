@@ -110,10 +110,7 @@ K(n) = \prod_{i=0}^{n-1} K_i = \prod_{i=0}^{\infty} \cos\left( \tan^{-1}(2^{-i})
 $$
 
 All the 𝐾𝑖 factors can be ignored during the iterative process, and the final rotated result can be multiplied once by the overall scaling factor 𝐾(𝑛). If the number of iterations is fixed, this value can be precomputed and stored in a register as a constant. This correction can even be performed in advance by multiplying the constant with (𝑥,𝑦), thereby saving one multiplication operation.  
-As $\theta_i$ becomes smaller and smaller,
-$\cos(\theta_i)$ gradually approaches 1.
-When the number of iterations $n \to \infty$,
-the product of the scaling factors $K(n)$ converges to a finite limit.
+As $\theta_i$ becomes smaller and smaller, $\cos(\theta_i)$ gradually approaches 1. When the number of iterations $n \to \infty$, the product of the scaling factors $K(n)$ converges to a finite limit.
 
 
 $$
