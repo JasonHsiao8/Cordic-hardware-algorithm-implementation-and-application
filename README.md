@@ -117,3 +117,4 @@ $$
 K = \lim_{n \to \infty} K(n) = \cos(45^\circ) \cos(26.565^\circ) \times \cdots \times \ \cos\left( \tan^{-1}(2^{-(n-1)}) \right) \approx 0.607252935
 $$
 
+## Example
