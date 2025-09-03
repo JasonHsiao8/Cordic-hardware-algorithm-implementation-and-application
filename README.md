@@ -112,6 +112,6 @@ $$
 All the 𝐾𝑖 factors can be ignored during the iterative process, and the final rotated result can be multiplied once by the overall scaling factor 𝐾(𝑛). If the number of iterations is fixed, this value can be precomputed and stored in a register as a constant. This correction can even be performed in advance by multiplying the constant with (𝑥,𝑦), thereby saving one multiplication operation.
 
 $$
-K = \lim_{n \to \infty} K(n) = \cos(45^\circ) \cos(26.565^\circ) \times \cdots \times \ \cos\left( \tan^{-1}(2^{-i}) \right) = \approx 0.607252935
+K = \lim_{n \to \infty} K(n) = \cos(45^\circ) \cos(26.565^\circ) \times \cdots \times \ \cos\left( \tan^{-1}(2^{-(n-1)}) \right) = \approx 0.607252935
 $$
 
