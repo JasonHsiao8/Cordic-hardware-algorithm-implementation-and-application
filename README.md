@@ -109,6 +109,7 @@ $$
 K(n) = \prod_{i=0}^{n-1} K_i = \prod_{i=0}^{\infty} \cos\left( \tan^{-1}(2^{-i}) \right) = \prod_{i=0}^{n-1} \frac{1}{\sqrt{1 + 2^{-2i}}}
 $$
 
+All the 𝐾𝑖 factors can be ignored during the iterative process, and the final rotated result can be multiplied once by the overall scaling factor 𝐾(𝑛).
 
 
 
