@@ -66,7 +66,7 @@ $$
 In this way, the multiplication with $\tan(\theta_i)$ can be transformed into shift operations, which can not only reduce hardware area but also lower power consumption and significantly accelerate the computation speed.
 
 ## Multiple Iterations
-CORDIC is an iterative algorithm that can gradually approach the target angle through continuous vector rotations, with each rotation angle becoming smaller and smaller. The more iterations are performed, the higher the final accuracy. For example, the first rotation is ±45°, the second is ±22.5°, the third is ±11.25°, and so on — each rotation angle is half of the previous one. Through this method, the target angle can be closely approximated.
+CORDIC is an iterative algorithm that can gradually approach the target angle through continuous vector rotations, with each rotation angle becoming smaller and smaller. The more iterations are performed, the higher the final accuracy. For example, the first rotation is ±45°, the second is ±26.56°, the third is ±14.03°, and so on — each rotation angle is half of the previous one. Through this method, the target angle can be closely approximated.
 Each rotation in the CORDIC algorithm involves the following steps:
 1. **Compute the rotation angle** corresponding to the current iteration step, typically using $\arctan(2^{-i})$, where $i$ is the iteration index.
 2. **Determine the rotation direction** (clockwise or counterclockwise) based on the current angle $z$, in order to approach the target angle.
