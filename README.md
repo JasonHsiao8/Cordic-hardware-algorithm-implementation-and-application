@@ -102,7 +102,7 @@ $$
 ## K value, Cordic gain  
 
 $$
-\cos(\theta_i) \quad = \quad \frac{1}{\sqrt{1 + \tan^2(\theta_i)}} \quad = \quad \frac{1}{\sqrt{1 + 2^{-2i}}} \quad = \quad K_i
+\cos(\theta_i) = \quad \frac{1}{\sqrt{1 + \tan^2(\theta_i)}} \quad = \quad \frac{1}{\sqrt{1 + 2^{-2i}}} \quad = K_i
 $$  
 
 $$
