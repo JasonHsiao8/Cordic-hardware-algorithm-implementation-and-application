@@ -120,3 +120,7 @@ $$
 ## Simulation of ArcTan and K value
 
 ## Simulation of the result
+<img width="1904" height="322" alt="image" src="https://github.com/user-attachments/assets/fe8785fd-417d-46a2-821d-923c7e5da986" />
+
+
+
