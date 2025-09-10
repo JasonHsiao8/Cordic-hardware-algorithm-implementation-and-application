@@ -119,4 +119,4 @@ $$
 
 ## Simulation of ArcTan and K value
 
-## Example
+## Simulation of the result
