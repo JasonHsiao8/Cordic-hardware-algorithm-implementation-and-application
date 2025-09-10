@@ -120,6 +120,16 @@ $$
 ## Simulation of ArcTan and K value
 
 ## Simulation of the result
+## Test Results
+
+| test angle | cos(θ) (float) | sin(θ) (float) | cos(θ) (fixed) | sin(θ) (fixed) | error value (cos/sin) | error rate (cos/sin) |
+|:---------:|---------------:|---------------:|---------------:|---------------:|----------------------:|---------------------:|
+| 0°        |                |                |                |                |                      |                      |
+| 30°       |                |                |                |                |                      |                      |
+| 45°       |                |                |                |                |                      |                      |
+| 60°       |                |                |                |                |                      |                      |
+| 90°       |                |                |                |                |                      |                      |
+
 <img width="1904" height="322" alt="image" src="https://github.com/user-attachments/assets/fe8785fd-417d-46a2-821d-923c7e5da986" />
 
 
