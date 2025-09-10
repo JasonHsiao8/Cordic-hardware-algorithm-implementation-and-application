@@ -122,9 +122,9 @@ $$
 ## Simulation of the result
 ## Test Results
 
-| test angle | cos(θ) (float) | sin(θ) (float) | cos(θ) (fixed) | sin(θ) (fixed) | error value (cos/sin) | error rate (cos/sin) |
+| test angle | cos(θ) (fixed) | sin(θ) (fixed) | cos(θ) (float) | sin(θ) (float) | error value (cos/sin) | error rate (cos/sin) |
 |:---------:|---------------:|---------------:|---------------:|---------------:|----------------------:|---------------------:|
-|  0°        |                |                |                |                |                      |                      |
+|  0°        |    0.99        |                |                |                |                      |                      |
 |  45°       |                |                |                |                |                      |                      |
 | -45°       |                |                |                |                |                      |                      |
 | 90°       |                |                |                |                |                      |                      |
