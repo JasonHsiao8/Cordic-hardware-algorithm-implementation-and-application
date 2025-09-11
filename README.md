@@ -121,7 +121,7 @@ $$
 
 ## Simulation of the result
 ## Test Results
-Round to the sixth decimal place.
+We round the simulated values to the sixth decimal place and compare them with the floating-point computation to evaluate the error.
 | test angle | cos(θ) (fixed) | sin(θ) (fixed) | cos(θ) (float) | sin(θ) (float) | error value (cos/sin) | error rate (cos/sin) |
 |:---------:|:---------------:|:--------------:|:--------------:|:--------------:|:---------------------:|:--------------------:|
 |  0°       |    0.999939     |   0.000244     |    1.000000    |    0.000000    |  0.000061 / 0.000244  | 0.006104% /--Infinity--|
