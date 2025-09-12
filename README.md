@@ -137,3 +137,7 @@ We round the simulated values to the sixth decimal place and compare them with t
 
 It can be found that the errors of the cosine and sine values for the test angles are almost not exceed 0.01%.
 
+## Conclusion
+
+CORDIC is an iterative algorithm based on additions/subtractions, shifts operation, and small lookup tables. It can generate trigonometric values, square roots, exponential and logarithms steadily without using any multipliers, making it especially useful on resource-limited hardware such as FPGAs. Actually, it decomposes the target angle into a sum of small rotations ± arctan(2⁻ⁱ). Each iteration increases the precision by roughly one bit, so the iteration count can be adjusted according to the requirement. Therefore, when a hardware design is constrained by the area or power, CORDIC is an excellent choice.
+
