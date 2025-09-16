@@ -122,6 +122,8 @@ Before implementing the Verilog code, we first used MATLAB to examine the iterat
 
 <img width="1226" height="624" alt="image" src="https://github.com/user-attachments/assets/beba64d3-fc8f-46aa-98bb-abe22380ccd6" />
 
+In this project, since the input angle range is $[-π, π]$, I implemented a CORDIC in Q1.14 fixed point format (1 integer bit and 14 fractional bits). We observe that $\arctan(2^{-i})$ at the 15th iteration exactly affects the angle’s LSB, so subsequent computations adopt 15 iterations as the baseline; iterating beyond 15 has no effect on precision. As for the $K$ value, it has already converged to 0.607253 by the 10th iteration.
+
 
 ## Simulation of the result
 
