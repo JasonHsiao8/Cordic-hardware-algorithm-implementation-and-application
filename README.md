@@ -118,8 +118,10 @@ K = \lim_{n \to \infty} K(n) = \cos(45^\circ) \cos(26.565^\circ) \times \cdots \
 $$
 
 ## Simulation of ArcTan and K value
+Before implementing the Verilog code, we first used MATLAB to examine the iterations of arctan(2⁻ᶦ) and the K value.
 
 ## Simulation of the result
+
 ## Test Results
 We round the simulated values to the sixth decimal place and compare them with the floating-point computation to evaluate the error.
 | test angle | cos(θ) (fixed) | sin(θ) (fixed) | cos(θ) (float) | sin(θ) (float) | error value (cos/sin) | error rate (cos/sin) |
