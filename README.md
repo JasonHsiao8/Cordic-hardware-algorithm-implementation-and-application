@@ -120,6 +120,9 @@ $$
 ## Simulation of ArcTan and K value
 Before implementing the Verilog code, we first used MATLAB to examine the iterations of arctan(2⁻ᶦ) and the K value.
 
+<img width="1226" height="624" alt="image" src="https://github.com/user-attachments/assets/beba64d3-fc8f-46aa-98bb-abe22380ccd6" />
+
+
 ## Simulation of the result
 
 ## Test Results
