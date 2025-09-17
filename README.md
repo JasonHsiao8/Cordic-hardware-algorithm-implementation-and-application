@@ -129,6 +129,10 @@ Therefore, before implementing in HDL, we can precompute these values and store 
 
 **Arctangent Look up table**
 
+<img width="742" height="27" alt="image" src="https://github.com/user-attachments/assets/d2154174-8d8d-45e0-a1af-9f63b13e23af" />
+
+**K(n) value**
+
 ## Simulation of the result
 
 ## Test Results
