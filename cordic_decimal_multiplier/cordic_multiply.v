@@ -2,9 +2,9 @@ module cordic_multiply #(parameter WL = 16, FL = 14, N_ITER = 15)(
     input      clk,
     input      rst_n,
     input      start,
-    input      signed [WL-1:0] in1,    // Q1.14  [-π/2, π/2] angle_in
-    input      signed [WL-1:0] in2,    // Q1.14  cos_out
-    output reg signed [WL-1:0] out,    // Q1.14  sin_out
+    input      signed [WL-1:0] in1,    // Q1.14  
+    input      signed [WL-1:0] in2,    // Q1.14  
+    output reg signed [WL-1:0] out,    // Q1.14  
     output reg done
 );
 
@@ -51,12 +51,10 @@ module cordic_multiply #(parameter WL = 16, FL = 14, N_ITER = 15)(
                 APPROX: begin
                     if (z[WL-1] == 0) begin // positive 
                         y <= y + (x >>> i);
-                        z <= z - (two >>> i);
-                        //state <= ((z - atan_table[i]) == 16'sd0) ? DONE : APPROX;
+                        z <= z - (two >>> i); 
                     end else begin 
                         y <= y - (x >>> i);
                         z <= z + (two >>> i);
-                        //state <= ((z + atan_table[i]) == 16'sd0) ? DONE : APPROX;
                     end
                     i <= i + 1;
                 end
