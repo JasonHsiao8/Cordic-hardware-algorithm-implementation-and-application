@@ -11,9 +11,9 @@ module cordic_multiply_tb;
     reg clk;
     reg rst_n;
     reg start;
-    reg  signed [WL-1:0] in1;  // Q1.14 格式，[-π/2, π/2]
-    reg  signed [WL-1:0] in2;   // Q1.14 格式
-    wire signed [WL-1:0] out;   // Q1.14 格式
+    reg  signed [WL-1:0] in1;  // 
+    reg  signed [WL-1:0] in2;   //
+    wire signed [WL-1:0] out;   // 
     wire done;
 
     // ===== Instantiate the CORDIC Module =====
