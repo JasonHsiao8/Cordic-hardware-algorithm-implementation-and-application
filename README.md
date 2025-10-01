@@ -133,6 +133,11 @@ Therefore, before implementing in HDL, we can precompute these values and store 
 
 **K(n) value**
 
+## Cordic State Machine
+
+![Uploading 未命名绘图.drawio (1).svg…]()
+
+
 ## Test Results
 We round the simulated values to the sixth decimal place and compare them with the floating-point computation to evaluate the error.
 | test angle | cos(θ) (fixed) | sin(θ) (fixed) | cos(θ) (float) | sin(θ) (float) | error value (cos/sin) | error rate (cos/sin) |
