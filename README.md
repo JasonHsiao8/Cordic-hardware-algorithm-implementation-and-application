@@ -135,8 +135,7 @@ Therefore, before implementing in HDL, we can precompute these values and store 
 
 ## Cordic State Machine
 
-![Uploading 未命名绘图.drawio (1).svg…]()
-
+<img width="490" height="336" alt="cordic state machine drawio" src="https://github.com/user-attachments/assets/64c22564-579f-428a-9132-189bc3348b02" />
 
 ## Test Results
 We round the simulated values to the sixth decimal place and compare them with the floating-point computation to evaluate the error.
