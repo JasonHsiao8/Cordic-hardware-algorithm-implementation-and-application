@@ -120,7 +120,7 @@ $$
 ## Simulation of ArcTan and K value
 Before implementing the Verilog code, we first used MATLAB to examine the iterations of arctan(2⁻ᶦ) and the K value.
 
-<img width="1226" height="624" alt="image" src="https://github.com/user-attachments/assets/beba64d3-fc8f-46aa-98bb-abe22380ccd6" />
+<img width="1328" height="576" alt="image" src="https://github.com/user-attachments/assets/d4e4166f-cf0f-485f-93c5-19939438904b" />
 
 In this project, since the input angle range is $[-π, π]$, I implemented a CORDIC in Q1.14 fixed point format (1 integer bit and 14 fractional bits). We observed that $\arctan(2^{-i})$ at the 15th iteration exactly affects the angle’s LSB, so subsequent computations adopt 15 iterations as the baseline; iterating beyond 15 has no effect on precision. As for the $K$ value, it has already **converged to 0.607253 by the 10th iteration**.  
 Therefore, before implementing in HDL, we can precompute these values and store them in the registers. Retrieving them via a LUT if we needed instead of expending extra hardware resources to compute those values.
