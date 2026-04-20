@@ -5,7 +5,7 @@
 ### Development Enviroment 
 - *Vivado Edition 2025.1*
 ### Cordic Application
-- [Cordic_Implementation](./cordic)
+- [Cordic_Rotation_Mode](./cordic)
 - [Cordic_decimal_multiplier](./cordic_decimal_multiplier)
  
 ## Vector Rotation  
