@@ -9,8 +9,7 @@
 %==============================================================================
 
 % Clear workspace and command window
-clear;
-clc;
+clear; clc;
 
 %------------------------------------------------------------------------------
 % CORDIC Configuration Parameters
@@ -21,7 +20,7 @@ N_iter = 15;                % Number of CORDIC iterations (0 to 14)
 % CORDIC Scaling Factor Computation
 % K = ∏(i=0 to N-1) cos(arctan(2^-i))
 %   = ∏(i=0 to N-1) 1/√(1 + 2^(-2i))
-%   ≈ 0.60725 for N → ∞
+%   ≈ 0.607253 for N → ∞
 %
 % This scaling factor compensates for the magnitude growth inherent in
 % the CORDIC rotation algorithm. The final converged value approaches
